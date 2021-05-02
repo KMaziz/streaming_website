@@ -1,0 +1,89 @@
+
+#comm_DIV_16,
+#comm_I_22,
+*,
+.saision_LI2 a,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+.saision_LI2 {
+    width: 164px;
+    display: inline-block;
+    padding: 0 10px
+}
+div#lesepi {
+    padding: 43px 20px 30px;
+    text-align: left
+}
+.saision_LI2 a {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px #000;
+    width: 100%;
+    color: #fff;
+    display: block;
+    text-align: center
+}
+.saision_LI2 a span.left {
+    display: block;
+    position: relative;
+    line-height: 40px;
+    padding: 0;
+    float: left;
+    border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px;
+    -webkit-box-shadow: 0 3px 0 0 #0d151f;
+    box-shadow: 0 3px 0 0 #0d151f;
+    background-color: #304156;
+    width: 53%
+}
+.saision_LI2 a span.right {
+    display: block;
+    position: relative;
+    line-height: 40px;
+    padding: 0;
+    float: right;
+    border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    font-size: 21px;
+    background-color: #d62544;
+    -webkit-box-shadow: 0 3px 0 0 #9c1e35;
+    box-shadow: 0 3px 0 0 #9c1e35;
+    width: 47%
+}
+.saision_LI2 a span.right .arrow-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    -webkit-transition: all .15s;
+    - transition: all .15s;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    left: 0;
+    -webkit-box-shadow: -10px 0 0 0 #304156, -10px 3px 0 0 #0d151f;
+    box-shadow: -10px 0 0 0 #304156, -10px 3px 0 0 #0d151f;
+    border-left: 10px solid #304156
+}
+#video-responsive,
+iframe#videoplay {
+    position: relative
+}
+.saision_LI2 a:hover span.right .arrow-right {
+    left: 10px
+}
+

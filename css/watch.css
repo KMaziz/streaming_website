@@ -1,0 +1,398 @@
+@media (min-width: 992px) {
+    .short-images a img {
+        height: 230px
+    }
+    #related-news .short-images a img {
+        height: 185px
+    }
+    .owl-random .short-images a img {
+        height: 220px
+    }
+    .shortstory-trailer .short-images a img {
+        height: 150px
+    }
+    .owl-trailer .shortstory-trailer .short-images a img {
+        height: 210px
+    }
+}
+@media (min-width: 1200px) {
+    .short-images a img {
+        height: 275px
+    }
+    #related-news .short-images a img {
+        height: 250px
+    }
+    .owl-random .short-images a img {
+        height: 285px
+    }
+    .shortstory-trailer .short-images a img {
+        height: 180px
+    }
+    .owl-trailer .shortstory-trailer .short-images a img {
+        height: 240px
+    }
+}
+.block-carousel {
+    overflow: hidden
+}
+.owl-box {
+    margin-left: -10px;
+    margin-right: -10px
+}
+.owl-box .shortstory-in {
+    margin: 0 10px!important;
+    width: auto;
+    float: none
+}
+.owl-box .shortstory {
+    margin: 0!important
+}
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+.owl-carousel,
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative
+}
+.owl-carousel {
+    width: 100%;
+    -ms-touch-action: pan-y
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+    -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    -ms-transition: height .5s ease-in-out;
+    -o-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out
+}
+.owl-item.loading {
+    min-height: 150px;
+    background: url(AjaxLoader.gif/index.html) center center no-repeat
+}
+.owl-carousel .owl-item {
+    float: left
+}
+.owl-controls {
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.owl-carousel .owl-item,
+.owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0)
+}
+.owl-controls .owl-next,
+.owl-controls .owl-prev {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    background: #9B59B6;
+    font-size: 20px;
+    filter: Alpha(Opacity=80);
+    opacity: .8;
+    z-index: 5;
+    border-radius: 3px;
+    margin-top: -30px;
+    width: 38px;
+    height: 60px;
+    line-height: 60px
+}
+.owl-controls .owl-prev {
+    left: 10px
+}
+.owl-controls .owl-next {
+    right: 10px
+}
+.owl-controls.clickable .owl-buttons div:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+    background: #526480
+}
+.owl-pagination {
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: -42px;
+    right: 10px
+}
+@media (max-width: 467px) {
+    .owl-pagination {
+        position: static
+    }
+}
+#related-news .owl-pagination {
+    position: static!important;
+    margin-top: 20px
+}
+.owl-controls .owl-page {
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1
+}
+.owl-controls .owl-page span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+    filter: Alpha(Opacity=80);
+    opacity: .8;
+    background: #fff;
+    border-radius: 50%
+}
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+    background: #9B59B6;
+    filter: Alpha(Opacity=100);
+    opacity: 1
+}
+.owl-orange .owl-next,
+.owl-orange .owl-prev {
+    background: #FF6907
+}
+.owl-blue .owl-next,
+.owl-blue .owl-prev {
+    background: #02B0E4
+}
+.owl-red .owl-next,
+.owl-red .owl-prev {
+    background: #FC1A3F
+}
+.owl-green .owl-next,
+.owl-green .owl-prev {
+    background: #2ECC71
+}
+.owl-violet .owl-next,
+.owl-violet .owl-prev {
+    background: #9B59B6
+}
+.owl-yellow .owl-next,
+.owl-yellow .owl-prev {
+    background: #FFC146
+}
+.owl-orange .owl-controls .owl-page.active span,
+.owl-orange .owl-controls.clickable .owl-page:hover span {
+    background: #FF6907
+}
+.owl-red .owl-controls .owl-page.active span,
+.owl-red .owl-controls.clickable .owl-page:hover span {
+    background: #FC1A3F
+}
+.owl-blue .owl-controls .owl-page.active span,
+.owl-blue .owl-controls.clickable .owl-page:hover span {
+    background: #02B0E4
+}
+.owl-green .owl-controls .owl-page.active span,
+.owl-green .owl-controls.clickable .owl-page:hover span {
+    background: #2ECC71
+}
+.owl-violet .owl-controls .owl-page.active span,
+.owl-violet .owl-controls.clickable .owl-page:hover span {
+    background: #9B59B6
+}
+.owl-yellow .owl-controls .owl-page.active span,
+.owl-yellow .owl-controls.clickable .owl-page:hover span {
+    background: #FFC146
+}
+.fullstory {
+    background: #222933;
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+#fstory-film,
+#related-news {
+    background: #24303D;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.fstory-h1 {
+    line-height: 32px;
+    font-size: 22px;
+    overflow: hidden;
+    border-left: 8px solid #02B0E4;
+    padding: 7px 20px 7px 60px;
+    position: relative;
+    min-height: 45px
+}
+.fstory-favorites {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #304156;
+    background: #24303D;
+    line-height: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+.fstory-favorites a {
+    display: block;
+    height: 100%
+}
+.fstory-favorites img {
+    vertical-align: middle!important;
+    display: block;
+    margin: 5px 0 0 5px
+}
+.fstory-favorites:hover {
+    background: #526480;
+    border-color: #526480
+}
+#addcform {
+    background: #1D232C;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+#comment-news .comment-news-line {
+    border-top: 3px solid #24303D;
+    padding-top: 10px;
+    text-align: right;
+    margin-bottom: 20px
+}
+@media (max-width: 767px) {
+    #comment-news .btn {
+        width: 100%
+    }
+    #comment-news .comment-news-line {
+        margin-bottom: 40px
+    }
+    #fstory-film .rating-sys {
+        margin: 0 0 20px!important
+    }
+}
+.fstory-content {
+    text-align: justify;
+    font-size: 14px
+}
+.fstory-content img {
+    max-width: 100%;
+    height: auto
+}
+.fstory-content ol,
+.fstory-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    overflow: hidden;
+    color: #565A5F
+}
+.fstory-content ol {
+    list-style: decimal;
+    padding-left: 30px
+}
+.fstory-content ul,
+.infobox ul li {
+    list-style: inside
+}
+.fstory-poster-in {
+    text-align: center
+}
+.fstory-poster {
+    position: relative
+}
+.fstory-poster img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    border-radius: 3px;
+    border: 3px solid #304156
+}
+.finfo .finfo-text,
+.finfo .finfo-title {
+    display: table-cell;
+    vertical-align: middle
+}
+@media (max-width: 767px) {
+    .fstory-poster {
+        margin: 0 auto 20px;
+        width: 300px
+    }
+    .btn-trailer {
+        margin-bottom: 20px;
+        margin-top: 0!important
+    }
+}
+.fstory-poster-rip {
+    background: #FC1A3F;
+    padding: 4px 10px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: -5px
+}
+.fstory-poster-rip a {
+    color: #fff
+}
+.btn-trailer {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+.video-responsive .load {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 9999;
+    background: url(http://www.papstream.com/loading2.gif) center center no-repeat #15191f;
+    border: 3px solid #304156
+}
+.video-responsive embed,
+.video-responsive frame,
+.video-responsive > iframe,
+.video-responsive object,
+.video-responsive video {
+    width: 100%!important;
+    height: 400px
+}
+.me-plugin,
+.mejs-layers,
+.mejs-overlay,
+.mejs-shim,
+.mejs-video {
+    width: 100%!important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form#vehicleRegFrm .btn-success,
+form#vehicleRegFrm input[type=submit],
+form#vehicleRegFrm select {
+    background: #bb2d46;
+    color: #FFF;
+    border-color: #d62544
+}
+form#vehicleRegFrm .btn-success:hover,
+form#vehicleRegFrm input[type=submit]:hover {
+    background: #88192d;
+    border-color: #bb2d46
+}

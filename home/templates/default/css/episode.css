@@ -1,0 +1,29 @@
+form#vehicleRegFrm select {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    /* color: #99b1d4; */
+    padding: 10px 14px 8px;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 20;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    transition: all .2s ease-in;
+    border-radius: 3px;
+    display: inline-block;
+    /* background: #232f3d; */
+    vertical-align: middle;
+    /* border: 1px solid #304156; */
+    outline: none;
+}
+form#vehicleRegFrm input[type=submit] {
+    padding: 10px 14px 8px;
+}

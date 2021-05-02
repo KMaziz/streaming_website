@@ -1,0 +1,261 @@
+.error {
+    margin-top: 10px;
+    background: #f64b2f url(http://www.papstream.net/img/error.png) no-repeat 14px 14px;
+    padding: 19px 69px;
+    color: #fefefe;
+    position: relative;
+    font: 14px/20px Museo300Regular,Helvetica,Arial,sans-serif;
+}
+.alert-success {
+    margin-top: 10px;
+    background: #7EB62E url(http://www.papstream.net/img/success.png) no-repeat 14px 14px;
+    padding: 19px 69px;
+    color: #fefefe;
+    position: relative;
+    font: 14px/20px Museo300Regular,Helvetica,Arial,sans-serif;
+}
+#comm_DIV_10, #comm_DIV_13 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    float: left;
+    height: 37px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 50%;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 204.578px 18.5px;
+    transform-origin: 204.578px 18.5px;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 16px / 24px Roboto, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+    padding: 0px 10px;
+}
+
+#comm_INPUT_11, #comm_INPUT_14 {
+    color: #99b1d4;
+    display: block;
+    float: left;
+    height: 37px;
+    text-size-adjust: 100%;
+    width: 100%;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 194.578px 18.5px;
+    transform-origin: 194.578px 18.5px;
+    border: 1px solid rgb(48, 65, 86);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal 300 normal 12.8px / normal Roboto, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+    padding: 10px 12px;
+    transition: all 0.2s ease 0s;
+    background: #232f3d;
+    font-size: 14px;
+}
+
+#comm_DIV_16 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    float: left;
+    height: 80px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 100%;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 409.156px 40px;
+    transform-origin: 409.156px 40px;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 16px / 24px Roboto, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+    padding: 10px;
+}
+
+#comm_TEXTAREA_17 {
+    color: #99b1d4;
+    display: block;
+    float: left;
+    height: 60px;
+    min-height: 50px;
+    resize: none;
+    text-size-adjust: 100%;
+    width: 100%;
+    column-rule-color: rgb(102, 102, 102);
+    perspective-origin: 399.156px 30px;
+    transform-origin: 399.156px 30px;
+    border: 1px solid rgb(48, 65, 86);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal 300 normal 12.8px / 19.2px Roboto, sans-serif;
+    outline: none;
+    padding: 10px;
+    transition: all 0.2s ease 0s;
+    background: #232f3d;
+    font-size: 14px;
+}
+
+#comm_INPUT_19 {
+    color: rgb(34, 34, 34);
+    display: none;
+    height: auto;
+    text-size-adjust: 100%;
+    width: auto;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal normal normal 16px / normal Roboto, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+    padding: 0px;
+}
+
+#comm_DIV_20 {
+    padding: 0px 10px;
+    clear: both;
+}
+
+#comm_INPUT_21 {
+    color: #99b1d4;
+    cursor: pointer;
+    display: block;
+    /* height: 34px; */
+    text-align: center;
+    text-size-adjust: 100%;
+    white-space: pre;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    background: #232f3d;
+    border: 1px solid rgb(48, 65, 86);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal 500 normal 14px / normal Roboto, sans-serif;
+    outline: none;
+    padding: 10px 8px;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+#comm_INPUT_21:hover {
+    background: #526480;
+    outline: 0;
+}
+#comm_I_22 {
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: none;
+    float: left;
+    height: 20px;
+    text-size-adjust: 100%;
+    width: 20px;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(255, 255, 255) url("http://www.papstream.net/img/loader.gif") no-repeat scroll 50% 50% / 20px padding-box border-box;
+    border: 0px none rgb(34, 34, 34);
+    font: italic normal normal normal 16px / 24px Roboto, sans-serif;
+    margin: 8px 0px 0px 10px;
+    outline: rgb(34, 34, 34) none 0px;
+}
+
+.listComs {
+    padding: 0;
+    float: left;
+    width: 100%;
+    padding-top: 20px!important;
+    position: relative;
+    padding-bottom: 20px;
+    /*min-height: 300px;*/
+    background-color: #222933;
+}
+.listComs .loader {
+    background: #fff url(http://www.papstream.net/img/loader.gif) center no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 111;
+    float: left;
+    background-size: 32px;
+}
+.listComs .counti {
+    float: left;
+    width: 100%;
+    /* font-size: 1em; */
+    /* font-weight: 300; */
+    /* color: #656565; */
+    padding: 10px 20px!important;
+    /* border-bottom: 1px solid #eee; */
+    /* font: normal normal 300 normal 16px / 24px Roboto, sans-serif; */
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+}
+.nop {
+    padding: 0!important;
+    margin: 0!important;
+}
+.commentaire {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+.commentaire .infos {
+    float: left;
+    width: 200px;
+}
+.commentaire .content {
+    float: left;
+    width: 555px;
+    font: normal normal normal normal 12.8px / 19.2px Roboto, sans-serif;
+    font-weight: 400;
+    color: #878787;
+}
+.commentaire .infos img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.commentaire .infos h4 {
+    float: left;
+    font: normal normal normal normal 12.8px / 19.2px Roboto, sans-serif;
+    font-weight: 400;
+    color: #646464;
+    width: 70%;
+    padding-left: 10px!important;
+    padding-top: 8px!important;
+}
+.commentaire .infos p {
+    float: left;
+     font: normal normal normal normal 10.4px / 10px Roboto, sans-serif;
+    font-weight: 400;
+    color: #aaa;
+    padding-left: 10px!important;
+    line-height: 10px;
+}#DIV_2 {
+        background: rgb(29, 35, 44) none repeat scroll 0% 0% / auto padding-box border-box;
+    padding: 3px 0px 0px 10px;
+}
+#DIV_3 {
+    margin: .67em 0 .67em -9px;
+    font-size: 17px;
+    border-left: 8px solid #9B59B6;
+    padding: 5px 0 5px 12px;
+    text-transform: uppercase;
+}
+form#dle-comments-form {
+    padding: 0 30px;
+    height: initial !important;
+    margin-bottom: 40px;
+}

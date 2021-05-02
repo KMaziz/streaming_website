@@ -1,0 +1,34 @@
+div#DIV_8 {
+    width: 172px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    display: inline-block
+}
+div#DIV_8 a {
+    display: block;
+    box-shadow: 0 0 4px 0 #161d25
+}
+div#DIV_8 a img {
+    max-width: 100%;
+    display: block
+}
+div#full-video #DIV_1 {
+    overflow: hidden;
+    padding: 0 30px 30px;
+    text-align: center
+}
+div#full-video #DIV_1 #DIV_2 {
+    padding: 0;
+    font-size: 14px;
+    margin: 0 -30px;
+    text-align: left
+}
+div#DIV_8 a #DIV_12 {
+    text-align: center;
+    font-size: 14px;
+    color: #FFF;
+    background: #304156;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden
+}
